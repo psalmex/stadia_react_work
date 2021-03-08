@@ -18,7 +18,7 @@ const Nav = () => {
                     <a href="https:\\google.com">About Stadia</a> Games
                 </li>
                 <li>
-                    Sign in <Button text={'Try now'} />
+                    Sign in <Button className='Button-secondary' text={'Try now'} />
                 </li>
             </ul>
 
