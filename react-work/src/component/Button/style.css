@@ -8,3 +8,10 @@
     color:blanchedalmond;
     width: 20px; 
 }
+
+.big-button {
+    width: 350px;
+    height: 50px;
+    font-size: 2rem;
+    margin-bottom: 2rem
+}

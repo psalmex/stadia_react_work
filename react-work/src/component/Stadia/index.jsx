@@ -26,7 +26,7 @@ const Stadia = ({ list, games }) => {
                  </path><path d="M247.305 8.751c-1.041-1.04-2.58-1.56-4.594-1.56h-.497c-2.014 0-3.576.52-4.594 1.56-1.131 1.13-1.516 2.396-1.516 4.927v1.153c0 2.508.407 3.797 1.516 4.927 1.041 1.04 2.58 1.56 4.594 1.56h.497c2.014 0 3.576-.52 4.594-1.56 1.131-1.13 1.516-2.396 1.516-4.927v-1.176c0-2.508-.385-3.797-1.516-4.904zm-.973 6.08c0 1.74-.113 2.599-.815 3.3-.565.564-1.493.858-2.806.858h-.497c-1.313 0-2.241-.271-2.806-.859-.702-.7-.815-1.56-.815-3.3v-1.175c0-1.74.113-2.599.815-3.3.565-.564 1.493-.858 2.806-.858h.497c1.313 0 2.241.271 2.806.859.702.7.815 1.56.815 3.3v1.175zM228.116 7.462h-4.979c-.068 0-.135.023-.203.045-.136.046-.227.159-.294.294-.023.068-.046.136-.046.204V20.57a.55.55 0 00.543.542h1.449a.55.55 0 00.543-.542v-3.797h3.009c.385 0 .747-.023 1.109-.068.226.43.611 1.153.882 1.672v.023c.136.249 1.154 2.215 1.177 2.238.136.248.317.474.702.474h1.267c.181 0 .384-.09.475-.248.068-.113.09-.226.045-.34-.045-.135-1.765-3.39-2.104-4l-.294-.542c.249-.159.452-.34.656-.52.656-.655 1.018-1.379 1.177-2.396 0 0 .09-.497.09-.926a5.4 5.4 0 00-.113-.972c-.181-.995-.521-1.695-1.177-2.35-.882-.905-2.195-1.357-3.914-1.357zm-3.055 2.328h3.055c1.018 0 1.719.204 2.149.633.408.407.589.95.589 1.695 0 .746-.204 1.288-.589 1.695-.43.43-1.131.633-2.149.633h-3.055V9.79zM214.811 7.462h-4.978c-.068 0-.136.023-.204.045-.136.046-.226.159-.294.294a.648.648 0 00-.045.204V20.57a.55.55 0 00.543.542h1.448a.55.55 0 00.543-.542v-3.797h3.009c1.72 0 3.033-.452 3.938-1.334.656-.655 1.018-1.378 1.176-2.395 0-.023.091-.498.091-.927 0-.43-.113-.95-.113-.972-.181-.994-.543-1.695-1.199-2.35-.883-.882-2.195-1.334-3.915-1.334zm-3.055 2.328h3.055c1.018 0 1.72.204 2.15.633.407.407.588.95.588 1.695 0 .746-.204 1.288-.588 1.695-.43.43-1.132.633-2.15.633h-3.055V9.79z" fill="#fff"></path><defs><linearGradient id="i5" x1="20.948" y1="-.504" x2="42.591" y2="34.175" gradientUnits="userSpaceOnUse"><stop offset=".099" stop-color="#FF4C1D"></stop><stop offset=".251" stop-color="#F64523"></stop><stop offset=".499" stop-color="#DE3334"></stop><stop offset=".811" stop-color="#B61550"></stop><stop offset="1" stop-color="#9B0063"></stop></linearGradient><linearGradient id="i6" x1="196.541" y1="14.253" x2="218.508" y2="44.623" gradientUnits="userSpaceOnUse"><stop stop-color="#F8491B"></stop><stop offset=".505" stop-color="#F12F3F"></stop><stop offset="1" stop-color="#DC1860"></stop></linearGradient></defs></svg>
              <br />
                      Play games in all their glory for free with Stadia Pro<br />
-                     Free games. More every month. Keep them as long as you’re a Stadia Pro member.1
+                     Free games. More every month. Keep them as long as you’re a Stadia Pro member.<sup>1</sup>
          </div>
 
             <div className="body1" list={games}>
@@ -42,7 +42,7 @@ const Stadia = ({ list, games }) => {
             <div style={{ textAlign: 'center' }}>
                 <Button className='Button-secondary' text={'Try Stadia Pro free for 1 month'}  />
                 <br />
-                <p>1$9.99/mo after trial, cancel anytime.</p><br />
+                <p><sup>1</sup>$9.99/mo after trial, cancel anytime.</p><br />
                 <h2>More great games are waiting in the Stadia store</h2><br />
                 <p>The games you buy go from screen… to screen… to screen. Compatible laptops and phones. TVs. You have what it takes.</p>
             </div>
