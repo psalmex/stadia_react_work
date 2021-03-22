@@ -5,6 +5,8 @@ import Nav from './component/Nav';
 import Stadia from './component/Stadia';
 import Header from './component/Header';
 import students from './data';
+import games from './component/Stadia/games'
+import Featured from './component/Featured';
 
 
 const App = () => {
@@ -13,8 +15,9 @@ const App = () => {
     <>
       <Header />
       <Nav />
-      {/* <Button text={'iClick'}/> */}
-      <Stadia list={students} />
+      <Featured feature={games} />
+      {/* <Button text={'text'}/> */}
+      <Stadia list={students} feature={games} text={'text'} />
     </>
   );
 }

@@ -1,13 +1,13 @@
 import React from 'react';
-
+import '../Nav/style.css';
 
 
 const Header = () => {
     return (
-        <div style={{ backgroundColor: 'wine', textAlign: 'center' }}>
+        <div className='header'>
             
-            <h4><i class="fa fa-shopping-bag" aria-hidden="true"></i>bag_white Play Cyberpunk 2077 on Stadia!</h4>
-            <a>Click here to Buy Now.</a> No subscription required.
+            <h4><i class="fa fa-shopping-bag"></i><i class="google-material-icons fW4sgd"></i>Play Cyberpunk 2077 on Stadia!</h4>
+            <p><ins>Click here to Buy Now.</ins> No subscription required.</p>
         </div>
     );
 };
@@ -15,3 +15,5 @@ const Header = () => {
 
 
 export default Header;
+
+// aria-hidden="true"
