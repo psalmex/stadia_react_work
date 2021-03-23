@@ -50,6 +50,7 @@ a {
 .body img, .body1 img, .body2 img {
     /* column-count: 5; */
     align-content: justify;
+    margin-top: 30px;
     width: 243px;
     height:320px;
     border-radius: 10px;

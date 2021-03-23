@@ -56,7 +56,7 @@ const Stadia = ({ list, feature, text }) => {
                }) }; */}
                 <p><sup>1</sup>$9.99/mo after trial, cancel anytime.</p><br />
                 <h2>More great games are waiting in the Stadia store</h2><br />
-                <p>The games you buy go from screen… to screen… to screen. <a>Compatible</a> laptops and phones. TVs. You have what it takes.</p>
+                <p>The games you buy go from screen… to screen… to screen. <a href="www.stadia.com">Compatible</a> laptops and phones. TVs. You have what it takes.</p>
             </div>
             <div className="body2">
 
