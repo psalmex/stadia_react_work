@@ -3,7 +3,7 @@ import './App.css';
 import Nav from './component/Nav';
 // import Button from './component/Button';
 import Stadia from './component/Stadia';
-import Header from './component/Header';
+import Header from './component/header';
 import students from './data';
 import games from './component/Stadia/games'
 import Featured from './component/Featured';
