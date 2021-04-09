@@ -1,49 +1,22 @@
-
-import './App.css';
-import Nav from './component/Nav';
+import "./App.css";
+import Nav from "./component/Nav";
 // import Button from './component/Button';
-import Stadia from './component/Stadia';
-
+import Stadia from "./component/Stadia";
+import Header from "./component/header";
+import students from "./data";
+import games from "./component/Stadia/games";
+import Featured from "./component/Featured";
 
 const App = () => {
-
   return (
     <>
+      <Header />
       <Nav />
-      {/* <ListBox list={students} /> */}
-      {/* <Button text={'try it'}/> */}
-      <Stadia />
+      <Featured feature={games} />
+      {/* <Button text={'text'}/> */}
+      <Stadia list={students} feature={games} text={"text"} />
     </>
   );
-}
+};
 
 export default App;
-
-// function App() {
-//   return (
-//     <>
-//       <Nav />
-//       {/* <Message />
-//     <LoginNav /> */}
-//       <div>HELLO WORLD</div>
-//       <div className="App">
-//         <header className="App-header">
-//           <img src={logo} className="App-logo" alt="logo" />
-//           <p>
-//             Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//           <a
-//             className="App-link"
-//             href="https://reactjs.org"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//           >
-//             Learn React
-//         </a>
-//         </header>
-//       </div>
-//     </>
-//   );
-// }
-
-// export default App;

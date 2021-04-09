@@ -1,14 +1,92 @@
-.container {
-    text-align: center;
-    margin: auto;
-    padding: 10px;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
+
+.container {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Google Sans", sans-serif;
+}
+a {
+  color: #de3334;
+}
+
+.body,
+.body1,
+.body2 {
+  column-count: 5;
+  /* display: flex; 
+    flex-wrap: wrap; */
+  margin: 30px 30px;
+  /* margin-left: 20px; */
+  text-align: center;
+  padding: 10px;
+}
+
+.list {
+  column-count: 5;
+  /* display: flex; 
+    flex-wrap: wrap; */
+  margin: auto;
+  /* margin-left: 60px; */
+  text-align: center;
+}
+
+.list img {
+  /* column-count: 5; */
+  /* align-content: justify; */
+  width: 243px;
+  height: 320px;
+  border-radius: 15px;
+  /* padding: 10px; */
+  cursor: pointer;
+}
+.body img,
+.body1 img,
+.body2 img {
+  /* column-count: 5; */
+  align-content: justify;
+  margin-top: 30px;
+  width: 243px;
+  height: 320px;
+  border-radius: 10px;
+  /* padding: 20px; */
+  cursor: pointer;
+}
+.restyle {
+  text-align: center;
+}
+.restyle Button {
+  /* color: #de3334; */
+  width: 600px;
+  height: 50px;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
 /* .body {
     display: flex;
     column-count: 5;
     margin-left: 40px;
     margin-right: 40px;
 } */
+/* .body1 {
+    display: flex;
+    column-count: 5;
+    margin: 10px;
+} */
+
+/* list {
+    column-count: 5;
+} */
+
 /* .nav {
     display: flex;
     width: auto;
@@ -17,35 +95,14 @@
     align-content: center;
     margin-left: 50px;
 } */
-h2 {
-    font-size: 30px;
-}
+
 /* .body img {
     width:320px;
     height:320px;
     border-radius: 15px;
     padding: 10px;
 } */
-.body, .body1, .body2 {
-    column-count: 5;
-    /* display: flex; 
-    flex-wrap: wrap; */
-    margin-left: 40px;
-    margin-right: 40px;
-    text-align: center;
-}
 
-.body img, .body1 img, .body2 img {
-    align-content: justify;
-    width: 243px;
-    height:320px;
-    border-radius: 15px;
-    padding: 10px;
-    cursor: pointer;
- }
- /* .body img:hover {
-     color: #000;
-} */
 /* .body2 {
     column-count: 5;
     display: flex; 
